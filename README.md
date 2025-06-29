@@ -21,7 +21,14 @@ It classifies waste into six categories using image classification with Efficien
 - ✅ Implemented EfficientNetV2B2 with transfer learning
 - ✅ Trained model for 2 epochs (training accuracy ~18%)
 
----
+## 📘 Week 2 Progress
+
+- Re-trained the garbage classification model using EfficientNetV2B2 for 10 epochs.
+- Improved model learning and performance using deeper training.
+- Plotted training vs validation accuracy and loss graphs for visual performance tracking.
+- Saved this work in a separate Week 2 Colab notebook.
+
+🔗 [View Week 2 Notebook](https://github.com/bhavjsh/garbage-classification/blob/main/Week2_Garbage_Classifier.ipynb)
 
 
 
