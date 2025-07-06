@@ -1,37 +1,66 @@
-# garbage-classification
 # 🗑️ Garbage Classification using EfficientNetV2B2
 
-This is a deep learning project built as part of my internship.  
-It classifies waste into six categories using image classification with EfficientNetV2B2 and transfer learning.
+This project was developed during my internship to classify waste images into 6 categories using image classification and transfer learning with EfficientNetV2B2.
 
----
+The goal is to support smart waste management by automating waste type detection and encouraging eco-friendly disposal.
+
+
 
 ## 📂 Dataset
-- [Kaggle Dataset – Trash Type Image](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset)
-- Contains images of 6 garbage classes: **cardboard, glass, metal, paper, plastic, trash**
+
+- [Kaggle Trash Type Image Dataset](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset)
+- Contains labeled images of:  
+  **cardboard**, **glass**, **metal**, **paper**, **plastic**, **trash**
+
+
+
+## ✅ Weekly Progress
+
+### Week 1
+- Set up Google Colab + Kaggle API
+- Downloaded and explored dataset
+- Created data generators
+- Built base model using EfficientNetV2B2
+- Trained for 2 epochs (basic run)
+
+### Week 2
+- Re-trained the model for 10 epochs
+- Applied data augmentation (flip, rotate, zoom, shift)
+- Plotted training vs validation accuracy and loss
+- Organized results in separate notebook
+
+### Week 3
+- Fine-tuned the model (unfrozen base layers)
+- Trained on GPU for better accuracy
+- Tested with real trash images
+- ✅ **Added unique prediction feature:**
+  - Shows **eco-friendly tip** 🌱
+  - Suggests **proper disposal** 🗑️
 
 ---
 
-## ✅ Week 1 Progress
+## 📁 Files Included
 
-- ✅ Set up Google Colab environment
-- ✅ Integrated Kaggle API and downloaded dataset
-- ✅ Visualized sample images
-- ✅ Created data generators using `ImageDataGenerator`
-- ✅ Implemented EfficientNetV2B2 with transfer learning
-- ✅ Trained model for 2 epochs (training accuracy ~18%)
+| File                            | Description                           |
+|----------------------------------|---------------------------------------|
+| `Week3_Garbage_Classifier.ipynb` | Final notebook with training + test   |
+| `graph.png`                      | Accuracy/loss plot                    |
+| `prediction_output.png`          | Model output with tip & disposal info |
 
-## 📘 Week 2 Progress
+---
 
-- Re-trained the garbage classification model using EfficientNetV2B2 for 10 epochs.
-- Improved model learning and performance using deeper training.
-- Plotted training vs validation accuracy and loss graphs for visual performance tracking.
-- Saved this work in a separate Week 2 Colab notebook.
-
-🔗 [View Week 2 Notebook](https://github.com/bhavjsh/garbage-classification/blob/main/Week2_Garbage_Classifier.ipynb)
+## 📸 Sample Output
+🧠 *Model predicted class*  
+🌱 *Sustainability tip*  
+🗑️ *Correct disposal advice*
 
 
 
-## 🔗 Notebook
+## 🛠️ Tools & Frameworks
+- Google Colab with T4 GPU
+- TensorFlow / Keras
+- EfficientNetV2B2 (transfer learning)
 
-[Click here to view notebook](./Garbage_Classifier.ipynb)
+
+
+Built with 💻 + 💡 during IBM x Edunet Foundation Internship  
