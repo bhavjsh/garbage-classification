@@ -37,7 +37,7 @@ The goal is to support smart waste management by automating waste type detection
   - Shows **eco-friendly tip** 🌱
   - Suggests **proper disposal** 🗑️
 
----
+
 
 ## 📁 Files Included
 
@@ -45,11 +45,14 @@ The goal is to support smart waste management by automating waste type detection
 |----------------------------------|---------------------------------------|
 | `Week3_Garbage_Classifier.ipynb` | Final notebook with training + test   |
 | `graph.png`                      | Accuracy/loss plot                    |
-| `prediction_output.png`          | Model output with tip & disposal info |
+| `prediction.png`                 | Model output with tip & disposal info |
 
----
+
 
 ## 📸 Sample Output
+
+![Prediction Result](./prediction.png)
+
 🧠 *Model predicted class*  
 🌱 *Sustainability tip*  
 🗑️ *Correct disposal advice*
@@ -63,4 +66,4 @@ The goal is to support smart waste management by automating waste type detection
 
 
 
-Built with 💻 + 💡 during IBM x Edunet Foundation Internship  
+Built with 💻 + 💡 during IBM x Edunet Foundation Internship
