@@ -66,4 +66,4 @@ The goal is to support smart waste management by automating waste type detection
 
 
 
-Built with 💻 + 💡 during IBM x Edunet Foundation Internship
+Built with 💻 + 💡 during Shell | Artificial Intelligence x Edunet Foundation Internship
